@@ -1,0 +1,7 @@
+{
+    "cSpell.ignoreWords": ["marp"],
+    "markdown.marp.themes": [
+        "./diapositivas/styles/upm.css"
+    ],
+    "markdown.marp.html": "all"
+}

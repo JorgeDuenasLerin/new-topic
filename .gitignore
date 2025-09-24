@@ -1,0 +1,22 @@
+# Archivos ocultos de MacOS
+.DS_Store
+
+# Ignorar todos los archivos generados por LaTeX en la carpeta 'practicas'
+practicas/*.aux
+practicas/*.log
+practicas/*.out
+practicas/*.toc
+practicas/*.lof
+practicas/*.lot
+practicas/*.fls
+practicas/*.fdb_latexmk
+practicas/*.synctex.gz
+practicas/*.bbl
+practicas/*.blg
+practicas/*.brf
+practicas/*.nav
+practicas/*.snm
+practicas/*.vrb
+practicas/*.dvi
+practicas/*.ps
+practicas/*.pdf
