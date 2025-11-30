@@ -106,7 +106,7 @@ NOTAS ADICIONALES:
 ### Especificaciones Técnicas
 - **4 opciones** por pregunta (A, B, C, D)
 - **1 única respuesta** correcta
-- **Penalización**: -33% por error (restar 0.33 puntos por cada fallo)
+- **Penalización**: -33.33333% por error (restar 0.33333 puntos por cada fallo)
 - **En blanco**: 0 puntos (neutral)
 
 ### Formato GIFT Estándar
@@ -114,9 +114,9 @@ NOTAS ADICIONALES:
 ::Título de la Pregunta::
 Enunciado claro de la pregunta {
     =Respuesta correcta
-    ~%-33%Distractor plausible 1
-    ~%-33%Distractor plausible 2
-    ~%-33%Distractor plausible 3
+    ~%-33.33333%Distractor plausible 1
+    ~%-33.33333%Distractor plausible 2
+    ~%-33.33333%Distractor plausible 3
 }
 ```
 
@@ -178,7 +178,7 @@ examen/*.gift                → Banco preguntas GIFT
 - [ ] La rúbrica suma exactamente 10 puntos
 - [ ] Todas las preguntas GIFT tienen exactamente 4 opciones
 - [ ] Los distractores son plausibles
-- [ ] La penalización está correctamente marcada (`~%-33%`)
+- [ ] La penalización está correctamente marcada (`~%-33.33333%`)
 - [ ] El contenido es coherente entre documentos
 - [ ] No hay errores ortográficos o de formato
 

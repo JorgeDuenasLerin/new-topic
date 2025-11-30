@@ -1,3 +1,0 @@
-# Preguntas test
-
-Formato GIFT

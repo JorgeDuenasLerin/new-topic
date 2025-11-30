@@ -1,0 +1,170 @@
+# Banco de preguntas GIFT sobre las tecnologías utilizadas en este repositorio
+# Temática: LaTeX, Markdown, Marp, GIFT, Git y flujo de trabajo académico
+
+::Lenguaje de marcado para diapositivas::
+¿Qué lenguaje de marcado se utiliza para crear las presentaciones en este repositorio? {
+    =Markdown
+    ~%-33.33333%LaTeX
+    ~%-33.33333%HTML
+    ~%-33.33333%reStructuredText
+}
+
+::Herramienta de conversión Marp::
+¿Qué herramienta se utiliza para convertir archivos Markdown en presentaciones con estilo UPM? {
+    =Marp
+    ~%-33.33333%Pandoc
+    ~%-33.33333%Beamer
+    ~%-33.33333%Reveal.js
+}
+
+::Formato de exámenes::
+¿Qué formato se utiliza para crear bancos de preguntas importables en Moodle? {
+    =GIFT
+    ~%-33.33333%XML
+    ~%-33.33333%JSON
+    ~%-33.33333%CSV
+}
+
+::Sistema de composición LaTeX::
+¿Qué sistema de composición se utiliza para las tareas y prácticas del repositorio? {
+    =LaTeX
+    ~%-33.33333%Microsoft Word
+    ~%-33.33333%Google Docs
+    ~%-33.33333%LibreOffice Writer
+}
+
+::Extensión archivos Markdown::
+¿Qué extensión tienen los archivos de diapositivas en Markdown? {
+    =.md
+    ~%-33.33333%.tex
+    ~%-33.33333%.gift
+    ~%-33.33333%.html
+}
+
+::Extensión archivos LaTeX::
+¿Qué extensión tienen los archivos de tareas y prácticas en LaTeX? {
+    =.tex
+    ~%-33.33333%.md
+    ~%-33.33333%.pdf
+    ~%-33.33333%.doc
+}
+
+::Estilo CSS personalizado::
+¿Qué archivo contiene los estilos personalizados para las presentaciones? {
+    =upm.css
+    ~%-33.33333%style.css
+    ~%-33.33333%theme.css
+    ~%-33.33333%presentation.css
+}
+
+::Comando generación PDF Marp::
+¿Qué comando se utiliza para generar un PDF desde Markdown con Marp? {
+    =npx @marp-team/marp-cli archivo.md --pdf
+    ~%-33.33333%pandoc archivo.md -o output.pdf
+    ~%-33.33333%markdown-pdf archivo.md
+    ~%-33.33333%marp convert archivo.md
+}
+
+::Compilador LaTeX::
+¿Qué comando se utiliza para compilar documentos LaTeX en PDF? {
+    =latexmk -pdf archivo.tex
+    ~%-33.33333%pdflatex archivo.tex
+    ~%-33.33333%latex archivo.tex
+    ~%-33.33333%tex2pdf archivo.tex
+}
+
+::Penalización formato GIFT::
+En el formato GIFT, ¿qué símbolo se utiliza para indicar una respuesta incorrecta con penalización del 33.33333%? {
+    =~%-33.33333%
+    ~%-33.33333%~-0.33333
+    ~%-33.33333%~wrong
+    ~%-33.33333%~incorrect
+}
+
+::Número de opciones GIFT::
+Según las especificaciones del repositorio, ¿cuántas opciones debe tener cada pregunta GIFT? {
+    =4
+    ~%-33.33333%3
+    ~%-33.33333%5
+    ~%-33.33333%2
+}
+
+::Plantilla LaTeX personalizada::
+¿Qué archivo define la plantilla personalizada para documentos LaTeX de la UPM? {
+    =upm-template.cls
+    ~%-33.33333%article.cls
+    ~%-33.33333%upm.sty
+    ~%-33.33333%template.tex
+}
+
+::Sistema de control de versiones::
+¿Qué sistema de control de versiones se utiliza en este repositorio? {
+    =Git
+    ~%-33.33333%SVN
+    ~%-33.33333%Mercurial
+    ~%-33.33333%CVS
+}
+
+::Directorio diapositivas::
+¿En qué directorio se almacenan las presentaciones Markdown? {
+    =diapositivas/
+    ~%-33.33333%slides/
+    ~%-33.33333%presentations/
+    ~%-33.33333%docs/
+}
+
+::Directorio tareas::
+¿En qué directorio se almacenan las prácticas en LaTeX? {
+    =tareas/
+    ~%-33.33333%practicas/
+    ~%-33.33333%exercises/
+    ~%-33.33333%assignments/
+}
+
+::Directorio exámenes::
+¿En qué directorio se almacenan los archivos GIFT para exámenes? {
+    =examen/
+    ~%-33.33333%tests/
+    ~%-33.33333%quizzes/
+    ~%-33.33333%evaluacion/
+}
+
+::Paquete LaTeX cajas de texto::
+¿Qué paquete LaTeX se utiliza para crear cajas de texto coloreadas en las tareas? {
+    =tcolorbox
+    ~%-33.33333%colorbox
+    ~%-33.33333%fancybox
+    ~%-33.33333%mdframed
+}
+
+::Paquete LaTeX notificaciones::
+¿Qué paquete LaTeX se utiliza para crear notificaciones con iconos (bclogo)? {
+    =[tikz]bclogo
+    ~%-33.33333%fontawesome
+    ~%-33.33333%icons
+    ~%-33.33333%warnings
+}
+
+::Formato respuesta correcta GIFT::
+En formato GIFT, ¿qué símbolo se utiliza para marcar la respuesta correcta? {
+    ==
+    ~%-33.33333%*
+    ~%-33.33333%+
+    ~%-33.33333%✓
+}
+
+::Metadatos Marp::
+¿Qué propiedad en el frontmatter de Markdown activa Marp para convertir el documento en presentación? {
+    =marp\: true
+    ~%-33.33333%presentation\: true
+    ~%-33.33333%slides\: enabled
+    ~%-33.33333%format\: marp
+}
+
+::Puntuación total rúbrica::
+Según las instrucciones del repositorio, ¿cuántos puntos debe sumar en total una rúbrica de evaluación? {
+    =10
+    ~%-33.33333%100
+    ~%-33.33333%20
+    ~%-33.33333%5
+}
