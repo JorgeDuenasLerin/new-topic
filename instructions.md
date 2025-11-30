@@ -43,18 +43,34 @@ Este proyecto contiene materiales académicos organizados en tres categorías pr
 
 ### Estructura de la Práctica
 ```latex
-\documentclass[a4paper,12pt]{article}
-
-% Preámbulo estándar
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
-\usepackage{amsmath, amssymb}
+\documentclass{upm-template}
 \usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage[svgnames]{xcolor}
+\usepackage[tikz]{bclogo}
 
+\title{Título de la Tarea}
+\author{Nombre del Autor}
+\date{Fecha}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+% Contenido de la práctica
 % Enunciado claro y específico
 % Objetivos de aprendizaje explícitos
 % Secciones bien delimitadas
 ```
+
+**Nota**: El template `upm-template.cls` incluye automáticamente:
+- Configuración de márgenes y espaciado
+- Cabecera con logos de la UPM y ETSISI
+- Portada personalizada con estilo institucional
+- Paquetes básicos (babel español, hyperref, geometry, etc.)
 
 ### Elementos Obligatorios
 1. **Introducción**: Contexto y objetivos (1-2 párrafos)

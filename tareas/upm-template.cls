@@ -49,7 +49,7 @@
 \setlength\headheight{50pt}
 \fancyhead[L]{\includegraphics[height=1.5cm]{logos/upm_logo}} 
 \fancyhead[C]{%
-    \color{dark-gray-upm}Arquitectura de Sistemas \\[0.5\baselineskip] 
+    \color{dark-gray-upm}Nuevo tema \\[0.5\baselineskip] 
     \color{blue-upm}\docTitle \\[-0.5\baselineskip]
 } 
 \fancyhead[R]{\includegraphics[height=1.5cm]{logos/etsisi_logo.png}}
@@ -66,7 +66,7 @@
         \begin{tikzpicture}[remember picture, overlay]
             \fill[background-upm] (current page.south west) rectangle (current page.north east);
             \node[align=center, text=white, yshift=0.74\paperheight] at (current page.south) {
-              {\huge Arquitectura de Sistemas} \\[3em]
+              {\huge Nuevo tema} \\[3em]
               {\bfseries\Huge \docTitle}
             };
             \node[anchor=south east, xshift=22cm, yshift=-39.7cm] at (current page.south east) {
