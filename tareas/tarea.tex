@@ -1,0 +1,169 @@
+\documentclass{upm-template}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+
+\usepackage[svgnames]{xcolor}
+\usepackage[tikz]{bclogo}
+
+
+
+\newcommand{\rellena}[2]{%
+  \begingroup
+  \edef\temp{\noexpand\begin{tcolorbox}[
+    colframe=black!80!white,
+    colback=white,
+    title={#1},
+    height=#2cm]}%
+  \temp
+  \end{tcolorbox}
+  \endgroup
+}
+
+
+
+\newenvironment{ojonota}
+{\begin{bclogo}[logo=\bcattention, couleurBarre=red, noborder=true, 
+couleur=LightGoldenrodYellow]{Nota!}}
+{\end{bclogo}}
+
+
+\title{Título de la Tarea}
+\author{Nombre del Autor}
+\date{Fecha}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introducción}
+
+Este es un documento de ejemplo que muestra cómo usar la plantilla de tareas. Aquí se incluye una introducción al tema que se va a tratar en la tarea.
+
+\subsection{Subsección de ejemplo}
+
+Este es un texto de ejemplo para una subsección. Aquí puedes incluir información adicional sobre el tema.
+
+\subsubsection{Sub-subsección}
+
+Y este es un tercer nivel de profundidad en la estructura del documento.
+
+\section{Ejemplo de Listas}
+
+\subsection{Lista con viñetas}
+
+Ejemplo de una lista no numerada:
+
+\begin{itemize}
+    \item Primer elemento de la lista
+    \item Segundo elemento de la lista
+    \item Tercer elemento de la lista
+    \item \textbf{Elemento en negrita}
+    \item \textit{Elemento en cursiva}
+\end{itemize}
+
+\subsection{Lista numerada}
+
+Ejemplo de una lista numerada:
+
+\begin{enumerate}
+    \item Primer paso
+    \item Segundo paso
+    \item Tercer paso
+\end{enumerate}
+
+\section{Ejemplo de Código}
+
+Aquí hay un ejemplo de cómo incluir código o comandos:
+
+\begin{verbatim}
+    # Este es un ejemplo de código
+    echo "Hola Mundo"
+    cd /directorio/ejemplo
+    ls -la
+\end{verbatim}
+
+\section{Ejemplo de Mensajes Especiales}
+
+\subsection{Mensaje de Nota}
+
+\begin{ojonota}
+    Este es un mensaje de nota importante. Utiliza este formato para destacar información relevante que el estudiante debe tener en cuenta.
+    
+    Puedes incluir varios párrafos dentro de la nota.
+\end{ojonota}
+
+\subsection{Mensaje de Atención con bclogo}
+
+\begin{bclogo}[logo=\bcattention, couleurBarre=red, noborder=true, 
+    couleur=LightGoldenrodYellow]{Atención!}
+    Este es un mensaje de atención con fondo amarillo. Úsalo para advertencias o información crítica.
+    
+    Es ideal para destacar requisitos importantes o pasos que no se deben omitir.
+\end{bclogo}
+
+\subsection{Otro ejemplo de bclogo}
+
+\begin{bclogo}[logo=\bcinfo, couleurBarre=blue, noborder=true, 
+    couleur=LightCyan]{Información}
+    Este es un mensaje informativo con otro estilo. Puedes personalizar los colores y el icono según tus necesidades.
+\end{bclogo}
+
+\section{Espacio para Rellenar}
+
+Este es un ejemplo de cómo crear espacios para que los estudiantes completen:
+
+\rellena{¿Cuál es la respuesta a esta pregunta?}{3}
+
+\rellena{Describe aquí el concepto principal}{4}
+
+\section{Ejemplo de Tablas}
+
+\begin{center}
+\begin{tabular}{|l|c|r|}
+\hline
+\textbf{Columna 1} & \textbf{Columna 2} & \textbf{Columna 3} \\
+\hline
+Dato 1 & Dato 2 & Dato 3 \\
+Dato 4 & Dato 5 & Dato 6 \\
+Dato 7 & Dato 8 & Dato 9 \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Ejercicios}
+
+\subsection{Ejercicio 1}
+
+Describe aquí el primer ejercicio que los estudiantes deben completar.
+
+\rellena{Espacio para la respuesta del ejercicio 1}{5}
+
+\subsection{Ejercicio 2}
+
+Describe aquí el segundo ejercicio.
+
+\begin{verbatim}
+    # Ejemplo de código para el ejercicio
+    comando_ejemplo --opcion valor
+\end{verbatim}
+
+\rellena{Espacio para la respuesta del ejercicio 2}{4}
+
+\section{Conclusión}
+
+Aquí se incluye un resumen de lo aprendido en la tarea:
+
+\begin{enumerate}
+    \item Primer concepto clave
+    \item Segundo concepto clave
+    \item Tercer concepto clave
+    \item Cuarto concepto clave
+\end{enumerate}
+
+Este documento proporciona una base para crear tareas estructuradas y profesionales.
+
+\end{document}

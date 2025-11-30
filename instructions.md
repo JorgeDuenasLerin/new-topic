@@ -150,9 +150,9 @@ Enunciado claro de la pregunta {
 conocimiento/información.md  → Base de conocimiento para generar todo
 diapositivas/main.md         → Presentación principal
 diapositivas/styles/upm.css  → Estilos personalizados
-tareas/tareas.md             → Enunciados LaTeX
-tareas/rúbrica.md            → Criterios evaluación
-examen/examen.md             → Banco preguntas GIFT
+tareas/*.tex                 → Enunciados LaTeX
+tareas-rubrica/*.md          → Criterios evaluación
+examen/*.gift                → Banco preguntas GIFT
 ```
 
 ---

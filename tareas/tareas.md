@@ -1,3 +1,0 @@
-# Tarea
-
-En formato latex
